@@ -7,63 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F913CB8F2A8621960080A44F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F913CB8E2A8621960080A44F /* AppDelegate.swift */; };
-		F913CB912A8621960080A44F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F913CB902A8621960080A44F /* ContentView.swift */; };
-		F913CB932A8621960080A44F /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F913CB922A8621960080A44F /* Experience.rcproject */; };
-		F913CB952A8621970080A44F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F913CB942A8621970080A44F /* Assets.xcassets */; };
-		F913CB982A8621970080A44F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F913CB972A8621970080A44F /* Preview Assets.xcassets */; };
-		F913CBA22A8621970080A44F /* BeeHeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F913CBA12A8621970080A44F /* BeeHeroTests.swift */; };
-		F913CBAC2A8621970080A44F /* BeeHeroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F913CBAB2A8621970080A44F /* BeeHeroUITests.swift */; };
-		F913CBAE2A8621970080A44F /* BeeHeroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F913CBAD2A8621970080A44F /* BeeHeroUITestsLaunchTests.swift */; };
+		EE2585902A7FCB870049CCD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25858F2A7FCB870049CCD6 /* AppDelegate.swift */; };
+		EE2585922A7FCB870049CCD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2585912A7FCB870049CCD6 /* ContentView.swift */; };
+		EE2585942A7FCB870049CCD6 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = EE2585932A7FCB870049CCD6 /* Experience.rcproject */; };
+		EE2585962A7FCB880049CCD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2585952A7FCB880049CCD6 /* Assets.xcassets */; };
+		EE2585992A7FCB880049CCD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2585982A7FCB880049CCD6 /* Preview Assets.xcassets */; };
+		EE2585A32A7FCB880049CCD6 /* BeeHeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2585A22A7FCB880049CCD6 /* BeeHeroTests.swift */; };
+		EE2585AD2A7FCB880049CCD6 /* BeeHeroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2585AC2A7FCB880049CCD6 /* BeeHeroUITests.swift */; };
+		EE2585AF2A7FCB880049CCD6 /* BeeHeroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2585AE2A7FCB880049CCD6 /* BeeHeroUITestsLaunchTests.swift */; };
+		EE2585BC2A7FCBA50049CCD6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2585BB2A7FCBA50049CCD6 /* MainView.swift */; };
+		EE3D1C0E2A81267600AD3173 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2585BB2A7FCBA50049CCD6 /* MainView.swift */; };
+		EE3D1C0F2A81267900AD3173 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2585BB2A7FCBA50049CCD6 /* MainView.swift */; };
+		EE3D1C112A82082800AD3173 /* HiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3D1C102A82082800AD3173 /* HiveView.swift */; };
+		EE3D1C122A82088E00AD3173 /* HiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3D1C102A82082800AD3173 /* HiveView.swift */; };
+		EE3D1C132A82088F00AD3173 /* HiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3D1C102A82082800AD3173 /* HiveView.swift */; };
+		EE79CAF22A821297008E04A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2585952A7FCB880049CCD6 /* Assets.xcassets */; };
+		EE79CAF32A821297008E04A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2585952A7FCB880049CCD6 /* Assets.xcassets */; };
+		EE79CAF52A83BE86008E04A5 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE79CAF42A83BE86008E04A5 /* ControlView.swift */; };
+		EE79CAF62A83C6BC008E04A5 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE79CAF42A83BE86008E04A5 /* ControlView.swift */; };
+		EE79CAF72A83C6BD008E04A5 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE79CAF42A83BE86008E04A5 /* ControlView.swift */; };
+		EE79CAF92A83C93C008E04A5 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE79CAF82A83C93C008E04A5 /* TestView.swift */; };
+		EE79CAFA2A83E106008E04A5 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE79CAF82A83C93C008E04A5 /* TestView.swift */; };
+		EE79CAFB2A83E107008E04A5 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE79CAF82A83C93C008E04A5 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F913CB9E2A8621970080A44F /* PBXContainerItemProxy */ = {
+		EE25859F2A7FCB880049CCD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F913CB832A8621950080A44F /* Project object */;
+			containerPortal = EE2585842A7FCB870049CCD6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F913CB8A2A8621960080A44F;
+			remoteGlobalIDString = EE25858B2A7FCB870049CCD6;
 			remoteInfo = BeeHero;
 		};
-		F913CBA82A8621970080A44F /* PBXContainerItemProxy */ = {
+		EE2585A92A7FCB880049CCD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F913CB832A8621950080A44F /* Project object */;
+			containerPortal = EE2585842A7FCB870049CCD6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F913CB8A2A8621960080A44F;
+			remoteGlobalIDString = EE25858B2A7FCB870049CCD6;
 			remoteInfo = BeeHero;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F913CB8B2A8621960080A44F /* BeeHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F913CB8E2A8621960080A44F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F913CB902A8621960080A44F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F913CB922A8621960080A44F /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
-		F913CB942A8621970080A44F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F913CB972A8621970080A44F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F913CB9D2A8621970080A44F /* BeeHeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeHeroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F913CBA12A8621970080A44F /* BeeHeroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeHeroTests.swift; sourceTree = "<group>"; };
-		F913CBA72A8621970080A44F /* BeeHeroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeHeroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F913CBAB2A8621970080A44F /* BeeHeroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeHeroUITests.swift; sourceTree = "<group>"; };
-		F913CBAD2A8621970080A44F /* BeeHeroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeHeroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE25858C2A7FCB870049CCD6 /* BeeHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE25858F2A7FCB870049CCD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE2585912A7FCB870049CCD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE2585932A7FCB870049CCD6 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		EE2585952A7FCB880049CCD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE2585982A7FCB880049CCD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE25859E2A7FCB880049CCD6 /* BeeHeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeHeroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2585A22A7FCB880049CCD6 /* BeeHeroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeHeroTests.swift; sourceTree = "<group>"; };
+		EE2585A82A7FCB880049CCD6 /* BeeHeroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeHeroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2585AC2A7FCB880049CCD6 /* BeeHeroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeHeroUITests.swift; sourceTree = "<group>"; };
+		EE2585AE2A7FCB880049CCD6 /* BeeHeroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeHeroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE2585BB2A7FCBA50049CCD6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EE3D1C102A82082800AD3173 /* HiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiveView.swift; sourceTree = "<group>"; };
+		EE79CAF42A83BE86008E04A5 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		EE79CAF82A83C93C008E04A5 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F913CB882A8621960080A44F /* Frameworks */ = {
+		EE2585892A7FCB870049CCD6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F913CB9A2A8621970080A44F /* Frameworks */ = {
+		EE25859B2A7FCB880049CCD6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F913CBA42A8621970080A44F /* Frameworks */ = {
+		EE2585A52A7FCB880049CCD6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,59 +91,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F913CB822A8621950080A44F = {
+		EE2585832A7FCB870049CCD6 = {
 			isa = PBXGroup;
 			children = (
-				F913CB8D2A8621960080A44F /* BeeHero */,
-				F913CBA02A8621970080A44F /* BeeHeroTests */,
-				F913CBAA2A8621970080A44F /* BeeHeroUITests */,
-				F913CB8C2A8621960080A44F /* Products */,
+				EE25858E2A7FCB870049CCD6 /* BeeHero */,
+				EE2585A12A7FCB880049CCD6 /* BeeHeroTests */,
+				EE2585AB2A7FCB880049CCD6 /* BeeHeroUITests */,
+				EE25858D2A7FCB870049CCD6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F913CB8C2A8621960080A44F /* Products */ = {
+		EE25858D2A7FCB870049CCD6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F913CB8B2A8621960080A44F /* BeeHero.app */,
-				F913CB9D2A8621970080A44F /* BeeHeroTests.xctest */,
-				F913CBA72A8621970080A44F /* BeeHeroUITests.xctest */,
+				EE25858C2A7FCB870049CCD6 /* BeeHero.app */,
+				EE25859E2A7FCB880049CCD6 /* BeeHeroTests.xctest */,
+				EE2585A82A7FCB880049CCD6 /* BeeHeroUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F913CB8D2A8621960080A44F /* BeeHero */ = {
+		EE25858E2A7FCB870049CCD6 /* BeeHero */ = {
 			isa = PBXGroup;
 			children = (
-				F913CB8E2A8621960080A44F /* AppDelegate.swift */,
-				F913CB902A8621960080A44F /* ContentView.swift */,
-				F913CB922A8621960080A44F /* Experience.rcproject */,
-				F913CB942A8621970080A44F /* Assets.xcassets */,
-				F913CB962A8621970080A44F /* Preview Content */,
+				EE25858F2A7FCB870049CCD6 /* AppDelegate.swift */,
+				EE2585912A7FCB870049CCD6 /* ContentView.swift */,
+				EE2585BB2A7FCBA50049CCD6 /* MainView.swift */,
+				EE79CAF42A83BE86008E04A5 /* ControlView.swift */,
+				EE3D1C102A82082800AD3173 /* HiveView.swift */,
+				EE79CAF82A83C93C008E04A5 /* TestView.swift */,
+				EE2585932A7FCB870049CCD6 /* Experience.rcproject */,
+				EE2585952A7FCB880049CCD6 /* Assets.xcassets */,
+				EE2585972A7FCB880049CCD6 /* Preview Content */,
 			);
 			path = BeeHero;
 			sourceTree = "<group>";
 		};
-		F913CB962A8621970080A44F /* Preview Content */ = {
+		EE2585972A7FCB880049CCD6 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F913CB972A8621970080A44F /* Preview Assets.xcassets */,
+				EE2585982A7FCB880049CCD6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F913CBA02A8621970080A44F /* BeeHeroTests */ = {
+		EE2585A12A7FCB880049CCD6 /* BeeHeroTests */ = {
 			isa = PBXGroup;
 			children = (
-				F913CBA12A8621970080A44F /* BeeHeroTests.swift */,
+				EE2585A22A7FCB880049CCD6 /* BeeHeroTests.swift */,
 			);
 			path = BeeHeroTests;
 			sourceTree = "<group>";
 		};
-		F913CBAA2A8621970080A44F /* BeeHeroUITests */ = {
+		EE2585AB2A7FCB880049CCD6 /* BeeHeroUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F913CBAB2A8621970080A44F /* BeeHeroUITests.swift */,
-				F913CBAD2A8621970080A44F /* BeeHeroUITestsLaunchTests.swift */,
+				EE2585AC2A7FCB880049CCD6 /* BeeHeroUITests.swift */,
+				EE2585AE2A7FCB880049CCD6 /* BeeHeroUITestsLaunchTests.swift */,
 			);
 			path = BeeHeroUITests;
 			sourceTree = "<group>";
@@ -133,13 +155,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F913CB8A2A8621960080A44F /* BeeHero */ = {
+		EE25858B2A7FCB870049CCD6 /* BeeHero */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F913CBB12A8621970080A44F /* Build configuration list for PBXNativeTarget "BeeHero" */;
+			buildConfigurationList = EE2585B22A7FCB880049CCD6 /* Build configuration list for PBXNativeTarget "BeeHero" */;
 			buildPhases = (
-				F913CB872A8621960080A44F /* Sources */,
-				F913CB882A8621960080A44F /* Frameworks */,
-				F913CB892A8621960080A44F /* Resources */,
+				EE2585882A7FCB870049CCD6 /* Sources */,
+				EE2585892A7FCB870049CCD6 /* Frameworks */,
+				EE25858A2A7FCB870049CCD6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -147,69 +169,69 @@
 			);
 			name = BeeHero;
 			productName = BeeHero;
-			productReference = F913CB8B2A8621960080A44F /* BeeHero.app */;
+			productReference = EE25858C2A7FCB870049CCD6 /* BeeHero.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F913CB9C2A8621970080A44F /* BeeHeroTests */ = {
+		EE25859D2A7FCB880049CCD6 /* BeeHeroTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F913CBB42A8621970080A44F /* Build configuration list for PBXNativeTarget "BeeHeroTests" */;
+			buildConfigurationList = EE2585B52A7FCB880049CCD6 /* Build configuration list for PBXNativeTarget "BeeHeroTests" */;
 			buildPhases = (
-				F913CB992A8621970080A44F /* Sources */,
-				F913CB9A2A8621970080A44F /* Frameworks */,
-				F913CB9B2A8621970080A44F /* Resources */,
+				EE25859A2A7FCB880049CCD6 /* Sources */,
+				EE25859B2A7FCB880049CCD6 /* Frameworks */,
+				EE25859C2A7FCB880049CCD6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F913CB9F2A8621970080A44F /* PBXTargetDependency */,
+				EE2585A02A7FCB880049CCD6 /* PBXTargetDependency */,
 			);
 			name = BeeHeroTests;
 			productName = BeeHeroTests;
-			productReference = F913CB9D2A8621970080A44F /* BeeHeroTests.xctest */;
+			productReference = EE25859E2A7FCB880049CCD6 /* BeeHeroTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F913CBA62A8621970080A44F /* BeeHeroUITests */ = {
+		EE2585A72A7FCB880049CCD6 /* BeeHeroUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F913CBB72A8621970080A44F /* Build configuration list for PBXNativeTarget "BeeHeroUITests" */;
+			buildConfigurationList = EE2585B82A7FCB880049CCD6 /* Build configuration list for PBXNativeTarget "BeeHeroUITests" */;
 			buildPhases = (
-				F913CBA32A8621970080A44F /* Sources */,
-				F913CBA42A8621970080A44F /* Frameworks */,
-				F913CBA52A8621970080A44F /* Resources */,
+				EE2585A42A7FCB880049CCD6 /* Sources */,
+				EE2585A52A7FCB880049CCD6 /* Frameworks */,
+				EE2585A62A7FCB880049CCD6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F913CBA92A8621970080A44F /* PBXTargetDependency */,
+				EE2585AA2A7FCB880049CCD6 /* PBXTargetDependency */,
 			);
 			name = BeeHeroUITests;
 			productName = BeeHeroUITests;
-			productReference = F913CBA72A8621970080A44F /* BeeHeroUITests.xctest */;
+			productReference = EE2585A82A7FCB880049CCD6 /* BeeHeroUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F913CB832A8621950080A44F /* Project object */ = {
+		EE2585842A7FCB870049CCD6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					F913CB8A2A8621960080A44F = {
+					EE25858B2A7FCB870049CCD6 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					F913CB9C2A8621970080A44F = {
+					EE25859D2A7FCB880049CCD6 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = F913CB8A2A8621960080A44F;
+						TestTargetID = EE25858B2A7FCB870049CCD6;
 					};
-					F913CBA62A8621970080A44F = {
+					EE2585A72A7FCB880049CCD6 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = F913CB8A2A8621960080A44F;
+						TestTargetID = EE25858B2A7FCB870049CCD6;
 					};
 				};
 			};
-			buildConfigurationList = F913CB862A8621960080A44F /* Build configuration list for PBXProject "BeeHero" */;
+			buildConfigurationList = EE2585872A7FCB870049CCD6 /* Build configuration list for PBXProject "BeeHero" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,89 +239,103 @@
 				en,
 				Base,
 			);
-			mainGroup = F913CB822A8621950080A44F;
-			productRefGroup = F913CB8C2A8621960080A44F /* Products */;
+			mainGroup = EE2585832A7FCB870049CCD6;
+			productRefGroup = EE25858D2A7FCB870049CCD6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F913CB8A2A8621960080A44F /* BeeHero */,
-				F913CB9C2A8621970080A44F /* BeeHeroTests */,
-				F913CBA62A8621970080A44F /* BeeHeroUITests */,
+				EE25858B2A7FCB870049CCD6 /* BeeHero */,
+				EE25859D2A7FCB880049CCD6 /* BeeHeroTests */,
+				EE2585A72A7FCB880049CCD6 /* BeeHeroUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F913CB892A8621960080A44F /* Resources */ = {
+		EE25858A2A7FCB870049CCD6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F913CB982A8621970080A44F /* Preview Assets.xcassets in Resources */,
-				F913CB952A8621970080A44F /* Assets.xcassets in Resources */,
+				EE2585992A7FCB880049CCD6 /* Preview Assets.xcassets in Resources */,
+				EE2585962A7FCB880049CCD6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F913CB9B2A8621970080A44F /* Resources */ = {
+		EE25859C2A7FCB880049CCD6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE79CAF22A821297008E04A5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F913CBA52A8621970080A44F /* Resources */ = {
+		EE2585A62A7FCB880049CCD6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE79CAF32A821297008E04A5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F913CB872A8621960080A44F /* Sources */ = {
+		EE2585882A7FCB870049CCD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F913CB912A8621960080A44F /* ContentView.swift in Sources */,
-				F913CB8F2A8621960080A44F /* AppDelegate.swift in Sources */,
-				F913CB932A8621960080A44F /* Experience.rcproject in Sources */,
+				EE79CAF92A83C93C008E04A5 /* TestView.swift in Sources */,
+				EE2585922A7FCB870049CCD6 /* ContentView.swift in Sources */,
+				EE2585902A7FCB870049CCD6 /* AppDelegate.swift in Sources */,
+				EE79CAF52A83BE86008E04A5 /* ControlView.swift in Sources */,
+				EE3D1C112A82082800AD3173 /* HiveView.swift in Sources */,
+				EE2585BC2A7FCBA50049CCD6 /* MainView.swift in Sources */,
+				EE2585942A7FCB870049CCD6 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F913CB992A8621970080A44F /* Sources */ = {
+		EE25859A2A7FCB880049CCD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F913CBA22A8621970080A44F /* BeeHeroTests.swift in Sources */,
+				EE79CAF62A83C6BC008E04A5 /* ControlView.swift in Sources */,
+				EE79CAFA2A83E106008E04A5 /* TestView.swift in Sources */,
+				EE2585A32A7FCB880049CCD6 /* BeeHeroTests.swift in Sources */,
+				EE3D1C122A82088E00AD3173 /* HiveView.swift in Sources */,
+				EE3D1C0E2A81267600AD3173 /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F913CBA32A8621970080A44F /* Sources */ = {
+		EE2585A42A7FCB880049CCD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F913CBAC2A8621970080A44F /* BeeHeroUITests.swift in Sources */,
-				F913CBAE2A8621970080A44F /* BeeHeroUITestsLaunchTests.swift in Sources */,
+				EE79CAFB2A83E107008E04A5 /* TestView.swift in Sources */,
+				EE3D1C132A82088F00AD3173 /* HiveView.swift in Sources */,
+				EE2585AD2A7FCB880049CCD6 /* BeeHeroUITests.swift in Sources */,
+				EE3D1C0F2A81267900AD3173 /* MainView.swift in Sources */,
+				EE2585AF2A7FCB880049CCD6 /* BeeHeroUITestsLaunchTests.swift in Sources */,
+				EE79CAF72A83C6BD008E04A5 /* ControlView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F913CB9F2A8621970080A44F /* PBXTargetDependency */ = {
+		EE2585A02A7FCB880049CCD6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F913CB8A2A8621960080A44F /* BeeHero */;
-			targetProxy = F913CB9E2A8621970080A44F /* PBXContainerItemProxy */;
+			target = EE25858B2A7FCB870049CCD6 /* BeeHero */;
+			targetProxy = EE25859F2A7FCB880049CCD6 /* PBXContainerItemProxy */;
 		};
-		F913CBA92A8621970080A44F /* PBXTargetDependency */ = {
+		EE2585AA2A7FCB880049CCD6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F913CB8A2A8621960080A44F /* BeeHero */;
-			targetProxy = F913CBA82A8621970080A44F /* PBXContainerItemProxy */;
+			target = EE25858B2A7FCB870049CCD6 /* BeeHero */;
+			targetProxy = EE2585A92A7FCB880049CCD6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		F913CBAF2A8621970080A44F /* Debug */ = {
+		EE2585B02A7FCB880049CCD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -359,7 +395,7 @@
 			};
 			name = Debug;
 		};
-		F913CBB02A8621970080A44F /* Release */ = {
+		EE2585B12A7FCB880049CCD6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -413,7 +449,7 @@
 			};
 			name = Release;
 		};
-		F913CBB22A8621970080A44F /* Debug */ = {
+		EE2585B32A7FCB880049CCD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -421,7 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BeeHero/Preview Content\"";
-				DEVELOPMENT_TEAM = 5Y6C53RJLR;
+				DEVELOPMENT_TEAM = H469TB7X9A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -436,7 +472,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = superbee.BeeHero;
+				PRODUCT_BUNDLE_IDENTIFIER = HMK.BeeHero;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -444,7 +480,7 @@
 			};
 			name = Debug;
 		};
-		F913CBB32A8621970080A44F /* Release */ = {
+		EE2585B42A7FCB880049CCD6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -452,7 +488,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BeeHero/Preview Content\"";
-				DEVELOPMENT_TEAM = 5Y6C53RJLR;
+				DEVELOPMENT_TEAM = H469TB7X9A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -467,7 +503,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = superbee.BeeHero;
+				PRODUCT_BUNDLE_IDENTIFIER = HMK.BeeHero;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -475,18 +511,17 @@
 			};
 			name = Release;
 		};
-		F913CBB52A8621970080A44F /* Debug */ = {
+		EE2585B62A7FCB880049CCD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5Y6C53RJLR;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = superbee.BeeHeroTests;
+				PRODUCT_BUNDLE_IDENTIFIER = HMK.BeeHeroTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -495,18 +530,17 @@
 			};
 			name = Debug;
 		};
-		F913CBB62A8621970080A44F /* Release */ = {
+		EE2585B72A7FCB880049CCD6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5Y6C53RJLR;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = superbee.BeeHeroTests;
+				PRODUCT_BUNDLE_IDENTIFIER = HMK.BeeHeroTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -515,16 +549,15 @@
 			};
 			name = Release;
 		};
-		F913CBB82A8621970080A44F /* Debug */ = {
+		EE2585B92A7FCB880049CCD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5Y6C53RJLR;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = superbee.BeeHeroUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = HMK.BeeHeroUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -533,16 +566,15 @@
 			};
 			name = Debug;
 		};
-		F913CBB92A8621970080A44F /* Release */ = {
+		EE2585BA2A7FCB880049CCD6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5Y6C53RJLR;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = superbee.BeeHeroUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = HMK.BeeHeroUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -554,43 +586,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F913CB862A8621960080A44F /* Build configuration list for PBXProject "BeeHero" */ = {
+		EE2585872A7FCB870049CCD6 /* Build configuration list for PBXProject "BeeHero" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F913CBAF2A8621970080A44F /* Debug */,
-				F913CBB02A8621970080A44F /* Release */,
+				EE2585B02A7FCB880049CCD6 /* Debug */,
+				EE2585B12A7FCB880049CCD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F913CBB12A8621970080A44F /* Build configuration list for PBXNativeTarget "BeeHero" */ = {
+		EE2585B22A7FCB880049CCD6 /* Build configuration list for PBXNativeTarget "BeeHero" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F913CBB22A8621970080A44F /* Debug */,
-				F913CBB32A8621970080A44F /* Release */,
+				EE2585B32A7FCB880049CCD6 /* Debug */,
+				EE2585B42A7FCB880049CCD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F913CBB42A8621970080A44F /* Build configuration list for PBXNativeTarget "BeeHeroTests" */ = {
+		EE2585B52A7FCB880049CCD6 /* Build configuration list for PBXNativeTarget "BeeHeroTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F913CBB52A8621970080A44F /* Debug */,
-				F913CBB62A8621970080A44F /* Release */,
+				EE2585B62A7FCB880049CCD6 /* Debug */,
+				EE2585B72A7FCB880049CCD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F913CBB72A8621970080A44F /* Build configuration list for PBXNativeTarget "BeeHeroUITests" */ = {
+		EE2585B82A7FCB880049CCD6 /* Build configuration list for PBXNativeTarget "BeeHeroUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F913CBB82A8621970080A44F /* Debug */,
-				F913CBB92A8621970080A44F /* Release */,
+				EE2585B92A7FCB880049CCD6 /* Debug */,
+				EE2585BA2A7FCB880049CCD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F913CB832A8621950080A44F /* Project object */;
+	rootObject = EE2585842A7FCB870049CCD6 /* Project object */;
 }

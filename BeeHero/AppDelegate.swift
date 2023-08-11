@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  BeeHero
 //
-//  Created by 范吴运维 on 2023/8/11.
+//  Created by 洪铭锟 on 2023/8/6.
 //
 
 import UIKit
@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
+        let contentView = ControlView().environmentObject(HiveSettings())
 
         // Use a UIHostingController as window root view controller.
         let window = UIWindow(frame: UIScreen.main.bounds)
